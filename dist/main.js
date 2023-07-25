@@ -53,7 +53,7 @@ const spaceTexture = new THREE.TextureLoader().load('space.jpg');
 scene.background = spaceTexture;
 
 
-const rgTexture = new THREE.TextureLoader().load('WhatsApp Image 2023-06-28 at 02.54.33.png');
+const rgTexture = new THREE.TextureLoader().load('profile.png');
 
 const rg = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
